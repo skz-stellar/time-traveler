@@ -1,0 +1,27 @@
+:host { display: block; color: #eff7f7; font-family: inherit; font-size: 14px; }
+* { box-sizing: border-box; }
+.field { margin-bottom: 18px; }
+label { display: block; margin-bottom: 7px; font-size: 13px; font-weight: 600; color: #d4e5ea; }
+input, select, button { font-family: inherit; font-size: 14px; color: inherit; }
+input, select { width: 100%; min-width: 0; padding: 11px 12px; border: 1px solid #c2e9f93d; border-radius: 9px; background: #03071029; }
+input { font-family: "IBM Plex Mono", monospace; font-size: 13px; }
+input::placeholder { color: #9cb0bd; opacity: 1; }
+select { color-scheme: dark; }
+option, optgroup { background: #0b121d; color: #eff7f7; }
+.hint { margin: 7px 0 0; color: #adc2cc; font-size: 11px; line-height: 1.6; }
+.error { color: #f3baba; font-size: 12px; line-height: 1.6; margin: 0 0 12px; }
+[hidden] { display: none; }
+.result { min-height: 113px; padding: 16px; border: 1px solid #c5f4e926; border-radius: 11px; background: #b9dfce08; display: flex; align-items: center; }
+output { display: flex; flex-direction: column; gap: 5px; min-width: 0; user-select: text; }
+.result-date, .result-time, .result-zone { font-family: "IBM Plex Mono", monospace; }
+.result-date { color: #c2d3e0; font-size: 12px; }
+.result-time { font-size: clamp(23px, 5vw, 32px); font-weight: 600; line-height: 1.2; color: #d1f9e8; overflow-wrap: anywhere; }
+.result-zone { color: #c7b8e8; font-size: 12px; }
+.empty { color: #adc2cc; font-size: 13px; }
+.actions { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-top: 14px; }
+.actions .hint { margin: 0; }
+button { padding: 9px 12px; border: 1px solid #c5f4e947; border-radius: 8px; background: #b8f4e411; color: #c5f4e9; cursor: pointer; font-size: 12px; }
+button:hover:not(:disabled) { background: #b8f4e422; border-color: #c5f4e985; }
+button:disabled { opacity: .4; cursor: default; }
+input:focus-visible, select:focus-visible, button:focus-visible { outline: 2px solid #d0fff1; outline-offset: 3px; }
+input[aria-invalid="true"] { border-color: #f3baba; }

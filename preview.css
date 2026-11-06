@@ -1,0 +1,9 @@
+@font-face { font-family: "IBM Plex Sans"; font-weight: 400; src: url("fonts/IBMPlexSans-Regular.woff2") format("woff2"); font-display: swap; }
+@font-face { font-family: "IBM Plex Sans"; font-weight: 600; src: url("fonts/IBMPlexSans-SemiBold.woff2") format("woff2"); font-display: swap; }
+@font-face { font-family: "IBM Plex Mono"; font-weight: 400; src: url("fonts/IBMPlexMono-Regular.woff2") format("woff2"); font-display: swap; }
+@font-face { font-family: "IBM Plex Mono"; font-weight: 600; src: url("fonts/IBMPlexMono-SemiBold.woff2") format("woff2"); font-display: swap; }
+:root { color-scheme: dark; background: #020308; color: #eff7f7; font-family: "IBM Plex Sans", sans-serif; }
+body { margin: 0; min-height: 100svh; display: grid; place-items: center; padding: 24px; box-sizing: border-box; }
+main { box-sizing: border-box; width: min(100%, 580px); padding: 28px; border: 1px solid #c2e9f92e; border-radius: 20px; background: linear-gradient(125deg, #bdedff05, #111c2e08); }
+h1 { font-size: 28px; font-weight: 600; margin: 0 0 8px; }
+p { color: #b1c5cd; margin: 0 0 24px; }
